@@ -8,5 +8,3 @@ def quicksort(array):
     greater = [i for i in array[1:] if i > pivot]
 
     return quicksort(less) + [pivot] + quicksort(greater)
-
-print(quicksort([10, 50, 2, 4, -5, 20]))
